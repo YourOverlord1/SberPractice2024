@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<h1>Добро пожаловать <span th:style="'color:' + ${color}"
+                  th:text="${username}"></span>!</h1>
+<p>Наша Таня громко плачет</p>
+<p>Уронила в речку мячик</p>
+<span th:style="'font-size:' + ${size}"
+      th:text="${yourStr}"></span>
+</body>
+</html>
